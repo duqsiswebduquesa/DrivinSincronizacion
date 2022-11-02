@@ -2,6 +2,27 @@
 
 class Funciones {
 
+	// Carga de datos - longitud - latitud
+
+	// public function nitsUsuarios(){
+	// 	include "conexion.php"; 
+	// 	$Data = "SELECT NIT, FECHAING FROM DUQUESA..MTPROCLI 
+	// 	WHERE CODPRECIO = 'BPAP' AND FECHAING BETWEEN '2022-09-01' AND '2022-10-31'";
+
+	// 	$Datresp = odbc_exec($conexion, $Data);
+	// 	while ($Dos = odbc_fetch_array($Datresp)) { $arr[] = $Dos; }
+	// 	return $arr;	
+    // }
+
+	// public function getJsonData($code,$latitude,$longitude){
+
+	// 	include "conexion.php"; 
+	// 	$Data = "IF NOT EXISTS(SELECT * FROM DUQUESA..MTPROCLI_LONG_LATI WHERE NIT = '$code') BEGIN
+	// 	INSERT INTO DUQUESA..MTPROCLI_LONG_LATI (NIT,LONGITUDE,LATITUDE) VALUES ('$code','$longitude','$latitude') END";
+
+	// 	$Datresp = odbc_exec($conexion, $Data);
+	// }
+
     // public function traerLongYlati($init){
 
     //     $token = "8eh6dv9evk8kv12v453dkm6jajv0ki0t"; 
